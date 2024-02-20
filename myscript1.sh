@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=activity1
-#SBATCH --nodes=2
+#SBATCH --nodes=1
 #SBATCH --partition=hpc
 #SBATCH --error=job.%J.err
 #SBATCH --output=job.%j.out
